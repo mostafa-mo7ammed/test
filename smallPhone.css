@@ -1,0 +1,98 @@
+/* phone ~ small phone */
+@media only screen and (max-width: 600px){
+  body{
+    width: 100vw
+  }
+  .fixe{
+    position: fixed;
+    background-color: #8B00FF7D;
+    width: 100%;
+    z-index: 1000;
+  }
+  .navlist{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    top: 70px;
+    background-image: linear-gradient(90deg, #8800FB, #00E0FB);
+    background-size: 200%;
+    z-index: 30;
+  }
+  .header-list{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    top: 65px;
+    background-image: linear-gradient( 90deg, #8800FB,#00E0FB);
+    background-size: 200% ;
+    z-index: 30;
+  }
+  .navlist .header-list{
+    transform: translateX(610px)
+  }
+  .humborger .navlist {
+    transform: translate(0px)
+  }
+  .humborger .header-list{
+    transform: translateX(-10px);
+  }
+   .openmenu-pare{
+    height: 35px;
+    width: 35px;
+    position: relative;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .openmenu-pare .majore{
+    height: 3px;
+    width: 100%;
+    background-color: #fff;
+    position: absolute;
+    border-radius: 5px;
+  }
+  .openmenu-pare .top{
+    transform: translateY(-12px)
+  }
+  .openmenu-pare .bottom{
+    transform: translateY(12px)
+  }
+  .menuopen .header-list{
+    height: 100%;
+  }
+  .menuopen .top{
+    transform: translate(0) rotate(45deg);
+  }
+  .menuopen .center{
+    transform: translateX(35px);
+    opacity: 0;
+  }
+  .menuopen .bottom {
+    transform: translate(0) rotate(-45deg);
+  }
+  .home .background-home-service .information .title .header-child{
+    font-size: 30px
+  }
+  /* contact us*/
+  .contact-us form input,
+  .contact-us form textarea {
+    margin: 10px;
+    width: 300px;
+    padding: 10px;
+    background-color: #F5F5F5;
+    font-family: Arial, Helvetica, sans-serif;
+    z-index: 2;
+    outline: none
+  }
+  .contact-us form input:focus~#line-contact {
+    width: 300px;
+  }
+
+}
