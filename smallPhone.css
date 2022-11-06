@@ -8,6 +8,7 @@
     background-color: #8B00FF7D;
     width: 100%;
     z-index: 1000;
+    padding: 3px
   }
   .navlist{
     display: flex;
