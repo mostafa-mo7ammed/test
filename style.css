@@ -30,7 +30,8 @@ header{
 }
 
 header img{
-  width: 150px;
+  width: 55px;
+  margin-left: 20px
 }
 
 header .header-list{
